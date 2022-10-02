@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+ 
+ 
+// Driver's code
+int main()
+{
+    int x=10,y=5;
+    cout<<x/y<<endl;
+    return 0;
+}
