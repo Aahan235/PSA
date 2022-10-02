@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
  
+ int subtract(int x, int y)
+ {
+  return x-y;
+ }
  
 // Driver's code
 int main()
 {
-    int x=10,y=5;
-    cout<<x-y<<endl;
+    cout<<subtract(10,5)<<endl;
     return 0;
 }
