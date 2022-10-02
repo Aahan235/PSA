@@ -1,9 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int countLen(string s){
+    return s.length();
+}
+
 int main()
 {
     string ans="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-    cout<<ans.length()<<endl;
+    cout<<countLen(ans)<<endl;
     return 0;
 }
