@@ -1,11 +1,26 @@
 #include <iostream>
 using namespace std;
  
- 
-// Driver's code
+double divide(int x, int y)
+{
+ try{
+  if(y==0)
+  {
+  throw("Can't divide with zero, you Praveen!")
+  }
+  else
+  {
+  return x/y;
+  }
+ }
+ catch(string str)
+ {
+  cout << str;
+  return INT_MAX;
+ }
+}
 int main()
 {
-    int x=10,y=5;
-    cout<<x/y<<endl;
+    cout<<divide(10,5)<<endl;
     return 0;
 }
