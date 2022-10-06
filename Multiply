@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
  
-inline int multiply(int x, int y) //Made function inline for faster execution
+inline long long int multiply(int x, int y) //Made function inline for faster execution
  {
   return x*y;
  }
   
 int main()
 {
-    cout<<multiply(5,10)<<endl;
+    int num1, num2;
+    cout << "Enter first number: \n";
+    cin >> num1;
+    cout << "Enter second number: \n";
+    cin >> num2;
+    cout<<"Multiplication of these two numbers is "<<multiply(num1,num2)<<endl;
     return 0;
 }
