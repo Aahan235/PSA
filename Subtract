@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
  
- int subtract(int x, int y)
+inline int subtract(int x, int y) //Inline function for faster execution
  {
   return x-y;
  }
  
-// Driver's code
 int main()
 {
     cout<<subtract(10,5)<<endl;
