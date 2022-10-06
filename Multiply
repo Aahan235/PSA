@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
- int multiply(int x, int y)
+inline int multiply(int x, int y) //Made function inline for faster execution
  {
   return x*y;
  }
