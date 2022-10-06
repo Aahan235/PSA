@@ -21,6 +21,11 @@ double divide(int x, int y)
 }
 int main()
 {
-    cout<<divide(10,5)<<endl;
+int num1, num2;
+    cout << "Enter first number: \n";
+    cin >> num1;
+    cout << "Enter second number: \n";
+    cin >> num2;
+    cout<<"Division of these two number is "<<divide(num1,num2)<<endl;
     return 0;
 }
