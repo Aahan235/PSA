@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
  
- inline int add(int x,int y) //Made function inline for faster execution
+ inline double add(double x, double y) //Made function inline for faster execution
  {
     return x+y;
  }
 // Driver's code
 int main()
 {
-    int x=10,y=5;
-    cout << add(x,y);
+    cout << "Enter first number: \n";
+    cin >> num1;
+    cout << "Enter second number: \n";
+    cin >> num2;
+    cout << "Addition of these two numbers is " << add(num1,num2);
     return 0;
 }
