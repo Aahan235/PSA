@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
  
- void add(int x,int y)
+ inline int add(int x,int y) //Made function inline for faster execution
  {
-    cout<<x+y<<endl;
+    return x+y;
  }
 // Driver's code
 int main()
 {
     int x=10,y=5;
-    add(x,y);
+    cout << add(x,y);
     return 0;
 }
