@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
  
-inline int subtract(int x, int y) //Inline function for faster execution
+inline double subtract(double x, double y) //Inline function for faster execution
  {
   return x-y;
  }
  
 int main()
 {
-    cout<<subtract(10,5)<<endl;
+int num1, num2;
+    cout << "Enter first number: \n";
+    cin >> num1;
+    cout << "Enter second number: \n";
+    cin >> num2;
+    cout<<"Difference between these two numbers is "<<subtract(num1,num2)<<endl;
     return 0;
 }
